@@ -1,0 +1,44 @@
+.mainheader{
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 0.7rem 0 1.4rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: rgb(212, 60, 51)
+}
+.mainheader img{
+    width: 1.6rem;
+    float: right;
+    margin-top: .7rem;
+}
+.mainheader_hearo{
+    height: 3rem;
+}
+.userbox{
+    height: 6rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 0.01rem solid #efefef;
+}
+.touxiang{
+    width: 4rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+.useroperate{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.useroperate p{
+    margin-top: 0.4rem;
+}

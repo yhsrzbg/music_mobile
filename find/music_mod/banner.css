@@ -1,0 +1,6 @@
+.banner{
+    height: 10rem;
+    background-size: cover;
+    transition: 1s;
+    /* margin-bottom: 0.3rem; */
+}

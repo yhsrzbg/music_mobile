@@ -1,0 +1,91 @@
+.bottonbar{
+    background-color: rgb(55, 55, 57);
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0.3rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.showview_botton{
+    position: absolute;
+    background-color: #fff;
+    height: 4rem;
+    width: 100%;
+}
+.bottonbar p{
+    margin: 0.3rem;
+}
+.bottonbar img{
+    width: 2rem;
+}
+.bottonbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.main{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; */
+}
+.showview{
+    /* flex-grow: 1; */
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+
+ .loginheader{
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 0.7rem ;
+    box-sizing: border-box;
+    background-color: rgb(212, 60, 51)
+ }
+ .loginheader i{
+     float: left;
+     font-size: 1.8rem;
+ }
+ .logininputacc{
+     margin-top: 1rem;
+ }
+ .logininputpwd{
+     margin-bottom: 2rem;
+ }
+ .logininputacc,.logininputpwd{
+     text-align: center;
+ }
+ .logininputacc input,.logininputpwd input{
+    height: 2.6rem;
+    outline: none;
+    width: 85%;
+    border: none;
+    border-bottom: 0.02rem solid #efefef;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+ }
+ .loginBtn{
+    margin: 0 auto;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 2.6rem;
+    color: #efefef;
+    background-color: rgb(212, 60, 51)
+ }
